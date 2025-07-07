@@ -6,7 +6,9 @@ import numpy as np
 import torch
 import time
 from torch.utils.data import Dataset, DataLoader
-
+# add path
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from nodeik.utils import build_model
 
 import warp as wp
@@ -15,6 +17,7 @@ from nodeik.robots.robot import Robot
 from nodeik.training import KinematicsDataset, Learner, ModelWrapper
 
 from pyquaternion import Quaternion
+# from pybullet_panda_sim import PandaSim
 
 @dataclass
 class args:
@@ -66,9 +69,17 @@ def run():
     x = torch.normal(mean=0.0, std=1.0, size=(c.shape[0],task_dim)).to(device)
     print(x.shape, c.shape, zero.shape)
 
+    # extract the first ele of pose_sets
+    pose_sets_0 = pose_sets[0]
+    # repete for 5 times
+    pose_sets = np.tile(pose_sets_0, (args.num_references, 1)).reshape(-1, task_dim)
+
     nodeik.eval()
     ik_q, _ = nodeik.inverse_kinematics(pose_sets)
     fk_sets = nodeik.forward_kinematics(ik_q)
+
+    # save ik_q
+    # np.save(os.path.join(os.path.dirname(__file__), 'assets', 'ik_q.npy'), ik_q)
 
     p_err = []
     q_err = []

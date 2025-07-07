@@ -155,7 +155,7 @@ class Learner(pl.LightningModule):
         # ik_q, delta_logp = self.model(z2, c, zero, reverse=True)
         # ik_q = ik_q.cpu().detach().numpy()
 
-
+        self.log("train_loss", loss, prog_bar=True, on_step=True, on_epoch=True)
         return {'loss': loss} 
 
     def validation_step(self, batch, batch_idx):
@@ -222,8 +222,16 @@ class Learner(pl.LightningModule):
         dicts = result.get_dict()
         results_dict = {"loss": loss}
         results_dict.update(dicts)
-        
-        self.log_dict(results_dict)
+        # self.log("val_loss", loss, prog_bar=True, on_step=False, on_epoch=True)
+        # self.log_dict(results_dict, prog_bar=False)
+
+        # self.log_dict(results_dict)
+
+        self.log("val_loss", loss, prog_bar=True, on_step=False, on_epoch=True)
+        self.log_dict(dicts, prog_bar=False)
+
+
+
         # print('mean position    error:', np.array(p_errs).mean())
         # print('mean orientation error:', np.array(q_errs).mean())
 

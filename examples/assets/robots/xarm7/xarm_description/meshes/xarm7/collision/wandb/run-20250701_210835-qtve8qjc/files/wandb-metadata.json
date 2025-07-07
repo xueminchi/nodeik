@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.8.0-60-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.20",
+  "startedAt": "2025-07-01T13:08:35.539364Z",
+  "program": "/home/ps/py_project/nodeik/examples/train_from_xarm7_urdf.py",
+  "codePath": "examples/train_from_xarm7_urdf.py",
+  "git": {
+    "remote": "https://github.com/cadop/nodeik.git",
+    "commit": "f510ff72dc5f83c6170717f1a102ddd3c1a2712c"
+  },
+  "email": "xueminchisnow@gmail.com",
+  "root": "/home/ps/py_project/nodeik/examples/assets/robots/xarm7/xarm_description/meshes/xarm7/collision",
+  "host": "ps",
+  "executable": "/home/ps/anaconda3/envs/node_ik/bin/python",
+  "cpu_count": 24,
+  "cpu_count_logical": 24,
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "2014574526464",
+      "used": "156016467968"
+    }
+  },
+  "memory": {
+    "total": "66851807232"
+  },
+  "cpu": {
+    "count": 24,
+    "countLogical": 24
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada",
+      "uuid": "GPU-02e63453-2378-1d9e-48de-5d6fcb9f34d7"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

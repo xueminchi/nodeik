@@ -1,0 +1,15 @@
+{"time":"2025-07-01T20:59:17.954435253+08:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/ps/py_project/nodeik/examples/assets/robots/xarm7/xarm_description/meshes/xarm7/collision/wandb/run-20250701_205917-7mrwpfp0/logs/debug-core.log"}
+{"time":"2025-07-01T20:59:18.694992034+08:00","level":"INFO","msg":"stream: created new stream","id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:18.695058921+08:00","level":"INFO","msg":"stream: started","id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:18.695215911+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:18.695221898+08:00","level":"INFO","msg":"sender: started","stream_id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:18.695340103+08:00","level":"INFO","msg":"handler: started","stream_id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:19.472310367+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-01T20:59:19.537538867+08:00","level":"INFO","msg":"stream: closing","id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:19.537563672+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-01T20:59:19.537606617+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-01T20:59:21.073963011+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-01T20:59:21.766192393+08:00","level":"INFO","msg":"handler: closed","stream_id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:21.7662166+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:21.766286065+08:00","level":"INFO","msg":"sender: closed","stream_id":"7mrwpfp0"}
+{"time":"2025-07-01T20:59:21.766380853+08:00","level":"INFO","msg":"stream: closed","id":"7mrwpfp0"}

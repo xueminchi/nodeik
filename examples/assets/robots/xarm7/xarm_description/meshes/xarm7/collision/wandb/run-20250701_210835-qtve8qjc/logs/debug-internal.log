@@ -1,0 +1,19 @@
+{"time":"2025-07-01T21:08:35.54004502+08:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/ps/py_project/nodeik/examples/assets/robots/xarm7/xarm_description/meshes/xarm7/collision/wandb/run-20250701_210835-qtve8qjc/logs/debug-core.log"}
+{"time":"2025-07-01T21:08:36.280740226+08:00","level":"INFO","msg":"stream: created new stream","id":"qtve8qjc"}
+{"time":"2025-07-01T21:08:36.280767415+08:00","level":"INFO","msg":"stream: started","id":"qtve8qjc"}
+{"time":"2025-07-01T21:08:36.28096993+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"qtve8qjc"}
+{"time":"2025-07-01T21:08:36.281056007+08:00","level":"INFO","msg":"sender: started","stream_id":"qtve8qjc"}
+{"time":"2025-07-01T21:08:36.281060109+08:00","level":"INFO","msg":"handler: started","stream_id":"qtve8qjc"}
+{"time":"2025-07-01T21:08:37.006101906+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-02T00:31:57.511341103+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-02T02:09:22.981974868+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/xueminchisnow-zhejiang-university/nodeik-xarm7/qtve8qjc/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-07-02T06:27:37.597154754+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-07-02T09:23:34.259372713+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-02T09:23:34.259478502+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-02T09:23:35.262318421+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.698115598,"progress":"939B/939B"},{"desc":"uploading output.log","runtime_seconds":0.698101202,"progress":"2.6KB/2.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.408133386,"progress":"3.7KB/3.7KB"}],"total_operations":3}}
+{"time":"2025-07-02T09:23:35.903898702+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-02T09:23:37.283427526+08:00","level":"INFO","msg":"stream: closing","id":"qtve8qjc"}
+{"time":"2025-07-02T09:23:37.283436565+08:00","level":"INFO","msg":"handler: closed","stream_id":"qtve8qjc"}
+{"time":"2025-07-02T09:23:37.283462322+08:00","level":"INFO","msg":"sender: closed","stream_id":"qtve8qjc"}
+{"time":"2025-07-02T09:23:37.283443186+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qtve8qjc"}
+{"time":"2025-07-02T09:23:37.283503274+08:00","level":"INFO","msg":"stream: closed","id":"qtve8qjc"}

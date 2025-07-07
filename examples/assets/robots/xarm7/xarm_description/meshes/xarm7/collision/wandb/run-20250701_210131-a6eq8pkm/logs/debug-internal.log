@@ -1,0 +1,16 @@
+{"time":"2025-07-01T21:01:31.811471349+08:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/ps/py_project/nodeik/examples/assets/robots/xarm7/xarm_description/meshes/xarm7/collision/wandb/run-20250701_210131-a6eq8pkm/logs/debug-core.log"}
+{"time":"2025-07-01T21:01:32.558499852+08:00","level":"INFO","msg":"stream: created new stream","id":"a6eq8pkm"}
+{"time":"2025-07-01T21:01:32.558605092+08:00","level":"INFO","msg":"stream: started","id":"a6eq8pkm"}
+{"time":"2025-07-01T21:01:32.558698411+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"a6eq8pkm"}
+{"time":"2025-07-01T21:01:32.558709309+08:00","level":"INFO","msg":"sender: started","stream_id":"a6eq8pkm"}
+{"time":"2025-07-01T21:01:32.558910405+08:00","level":"INFO","msg":"handler: started","stream_id":"a6eq8pkm"}
+{"time":"2025-07-01T21:01:33.208497573+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-01T21:03:15.215454311+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-01T21:03:15.215493694+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-01T21:03:16.216815115+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.419667134,"progress":"577B/577B"}],"total_operations":1}}
+{"time":"2025-07-01T21:03:16.416955785+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-01T21:03:17.801707164+08:00","level":"INFO","msg":"stream: closing","id":"a6eq8pkm"}
+{"time":"2025-07-01T21:03:17.801717654+08:00","level":"INFO","msg":"handler: closed","stream_id":"a6eq8pkm"}
+{"time":"2025-07-01T21:03:17.801737661+08:00","level":"INFO","msg":"sender: closed","stream_id":"a6eq8pkm"}
+{"time":"2025-07-01T21:03:17.80172645+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a6eq8pkm"}
+{"time":"2025-07-01T21:03:17.801808208+08:00","level":"INFO","msg":"stream: closed","id":"a6eq8pkm"}

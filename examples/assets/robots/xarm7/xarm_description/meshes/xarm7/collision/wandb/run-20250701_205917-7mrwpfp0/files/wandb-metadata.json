@@ -1,0 +1,15 @@
+{
+  "os": "Linux-6.8.0-60-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.20",
+  "startedAt": "2025-07-01T12:59:17.953684Z",
+  "program": "/home/ps/py_project/nodeik/examples/train_from_xarm7_urdf.py",
+  "codePath": "examples/train_from_xarm7_urdf.py",
+  "git": {
+    "remote": "https://github.com/cadop/nodeik.git",
+    "commit": "f510ff72dc5f83c6170717f1a102ddd3c1a2712c"
+  },
+  "email": "xueminchisnow@gmail.com",
+  "root": "/home/ps/py_project/nodeik/examples/assets/robots/xarm7/xarm_description/meshes/xarm7/collision",
+  "host": "ps",
+  "executable": "/home/ps/anaconda3/envs/node_ik/bin/python"
+}

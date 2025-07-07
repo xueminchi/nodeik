@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/ps/py_project/nodeik/examples/train_from_xarm7_urdf.py", line 102, in <module>
+    run()
+  File "/home/ps/py_project/nodeik/examples/train_from_xarm7_urdf.py", line 82, in run
+    wandb_logger.experiment.config.update(vars(args))  # 保存超参数
+  File "/home/ps/anaconda3/envs/node_ik/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 187, in update
+    sanitized = self._update(d, allow_val_change)
+  File "/home/ps/anaconda3/envs/node_ik/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 175, in _update
+    parsed_dict = wandb_helper.parse_config(d)
+  File "/home/ps/anaconda3/envs/node_ik/lib/python3.8/site-packages/wandb/sdk/wandb_helper.py", line 14, in parse_config
+    params = _to_dict(params)
+  File "/home/ps/anaconda3/envs/node_ik/lib/python3.8/site-packages/wandb/sdk/wandb_helper.py", line 42, in _to_dict
+    raise TypeError("config must be a dict or have a __dict__ attribute.")
+TypeError: config must be a dict or have a __dict__ attribute.
